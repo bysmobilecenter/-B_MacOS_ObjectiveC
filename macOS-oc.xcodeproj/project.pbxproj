@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AAE9F272016DEFC00E816E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE9F262016DEFC00E816E3 /* AppDelegate.m */; };
+		4AAE9F2A2016DEFC00E816E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE9F292016DEFC00E816E3 /* ViewController.m */; };
+		4AAE9F2C2016DEFC00E816E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE9F2B2016DEFC00E816E3 /* Assets.xcassets */; };
+		4AAE9F2F2016DEFC00E816E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE9F2D2016DEFC00E816E3 /* Main.storyboard */; };
+		4AAE9F322016DEFC00E816E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE9F312016DEFC00E816E3 /* main.m */; };
+		4AAE9F3D2016DEFD00E816E3 /* macOS_ocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE9F3C2016DEFD00E816E3 /* macOS_ocTests.m */; };
+		4AAE9F482016DEFD00E816E3 /* macOS_ocUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE9F472016DEFD00E816E3 /* macOS_ocUITests.m */; };
+		5B4A0A06C51F56882EBACBEB /* libPods-macOS-ocUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6030C7CB66176C567DD5B680 /* libPods-macOS-ocUITests.a */; };
+		968E56AFE856AFE9486CF5BA /* libPods-macOS-ocTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B8CCB7849155BF08A77184 /* libPods-macOS-ocTests.a */; };
+		B4B9F7A261864A4AFD750C6F /* libPods-macOS-oc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 077FCD00CC859F15DEEEA432 /* libPods-macOS-oc.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AAE9F392016DEFD00E816E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AAE9F1A2016DEFB00E816E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AAE9F212016DEFB00E816E3;
+			remoteInfo = "macOS-oc";
+		};
+		4AAE9F442016DEFD00E816E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AAE9F1A2016DEFB00E816E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AAE9F212016DEFB00E816E3;
+			remoteInfo = "macOS-oc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		077FCD00CC859F15DEEEA432 /* libPods-macOS-oc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-macOS-oc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE6BB7A8BCDE0A483481FE8 /* Pods-macOS-oc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macOS-oc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-macOS-oc/Pods-macOS-oc.debug.xcconfig"; sourceTree = "<group>"; };
+		4AAE9F222016DEFB00E816E3 /* macOS-oc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "macOS-oc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AAE9F252016DEFC00E816E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AAE9F262016DEFC00E816E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AAE9F282016DEFC00E816E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4AAE9F292016DEFC00E816E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4AAE9F2B2016DEFC00E816E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AAE9F2E2016DEFC00E816E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AAE9F302016DEFC00E816E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AAE9F312016DEFC00E816E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AAE9F332016DEFD00E816E3 /* macOS_oc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS_oc.entitlements; sourceTree = "<group>"; };
+		4AAE9F382016DEFD00E816E3 /* macOS-ocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "macOS-ocTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AAE9F3C2016DEFD00E816E3 /* macOS_ocTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = macOS_ocTests.m; sourceTree = "<group>"; };
+		4AAE9F3E2016DEFD00E816E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AAE9F432016DEFD00E816E3 /* macOS-ocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "macOS-ocUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AAE9F472016DEFD00E816E3 /* macOS_ocUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = macOS_ocUITests.m; sourceTree = "<group>"; };
+		4AAE9F492016DEFD00E816E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6030C7CB66176C567DD5B680 /* libPods-macOS-ocUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-macOS-ocUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B8CCB7849155BF08A77184 /* libPods-macOS-ocTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-macOS-ocTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F34693E6025A486A9D993D2 /* Pods-macOS-oc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macOS-oc.release.xcconfig"; path = "Pods/Target Support Files/Pods-macOS-oc/Pods-macOS-oc.release.xcconfig"; sourceTree = "<group>"; };
+		72D52BB6C30C9B84FD41E7E6 /* Pods-macOS-ocTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macOS-ocTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-macOS-ocTests/Pods-macOS-ocTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A871E81D8D74A66968CC1F7 /* Pods-macOS-ocUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macOS-ocUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-macOS-ocUITests/Pods-macOS-ocUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D989160118027BBF40CA620F /* Pods-macOS-ocTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macOS-ocTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-macOS-ocTests/Pods-macOS-ocTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF51901536864E33A641E88A /* Pods-macOS-ocUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macOS-ocUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-macOS-ocUITests/Pods-macOS-ocUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AAE9F1F2016DEFB00E816E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B9F7A261864A4AFD750C6F /* libPods-macOS-oc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AAE9F352016DEFD00E816E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968E56AFE856AFE9486CF5BA /* libPods-macOS-ocTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AAE9F402016DEFD00E816E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4A0A06C51F56882EBACBEB /* libPods-macOS-ocUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		050A8C1012C98366E258AB80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FE6BB7A8BCDE0A483481FE8 /* Pods-macOS-oc.debug.xcconfig */,
+				6F34693E6025A486A9D993D2 /* Pods-macOS-oc.release.xcconfig */,
+				D989160118027BBF40CA620F /* Pods-macOS-ocTests.debug.xcconfig */,
+				72D52BB6C30C9B84FD41E7E6 /* Pods-macOS-ocTests.release.xcconfig */,
+				8A871E81D8D74A66968CC1F7 /* Pods-macOS-ocUITests.debug.xcconfig */,
+				EF51901536864E33A641E88A /* Pods-macOS-ocUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4AAE9F192016DEFB00E816E3 = {
+			isa = PBXGroup;
+			children = (
+				4AAE9F242016DEFC00E816E3 /* macOS-oc */,
+				4AAE9F3B2016DEFD00E816E3 /* macOS-ocTests */,
+				4AAE9F462016DEFD00E816E3 /* macOS-ocUITests */,
+				4AAE9F232016DEFB00E816E3 /* Products */,
+				050A8C1012C98366E258AB80 /* Pods */,
+				7CBF774603309FB48A6A6DDD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4AAE9F232016DEFB00E816E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AAE9F222016DEFB00E816E3 /* macOS-oc.app */,
+				4AAE9F382016DEFD00E816E3 /* macOS-ocTests.xctest */,
+				4AAE9F432016DEFD00E816E3 /* macOS-ocUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AAE9F242016DEFC00E816E3 /* macOS-oc */ = {
+			isa = PBXGroup;
+			children = (
+				4AAE9F252016DEFC00E816E3 /* AppDelegate.h */,
+				4AAE9F262016DEFC00E816E3 /* AppDelegate.m */,
+				4AAE9F282016DEFC00E816E3 /* ViewController.h */,
+				4AAE9F292016DEFC00E816E3 /* ViewController.m */,
+				4AAE9F2B2016DEFC00E816E3 /* Assets.xcassets */,
+				4AAE9F2D2016DEFC00E816E3 /* Main.storyboard */,
+				4AAE9F302016DEFC00E816E3 /* Info.plist */,
+				4AAE9F312016DEFC00E816E3 /* main.m */,
+				4AAE9F332016DEFD00E816E3 /* macOS_oc.entitlements */,
+			);
+			path = "macOS-oc";
+			sourceTree = "<group>";
+		};
+		4AAE9F3B2016DEFD00E816E3 /* macOS-ocTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AAE9F3C2016DEFD00E816E3 /* macOS_ocTests.m */,
+				4AAE9F3E2016DEFD00E816E3 /* Info.plist */,
+			);
+			path = "macOS-ocTests";
+			sourceTree = "<group>";
+		};
+		4AAE9F462016DEFD00E816E3 /* macOS-ocUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4AAE9F472016DEFD00E816E3 /* macOS_ocUITests.m */,
+				4AAE9F492016DEFD00E816E3 /* Info.plist */,
+			);
+			path = "macOS-ocUITests";
+			sourceTree = "<group>";
+		};
+		7CBF774603309FB48A6A6DDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				077FCD00CC859F15DEEEA432 /* libPods-macOS-oc.a */,
+				65B8CCB7849155BF08A77184 /* libPods-macOS-ocTests.a */,
+				6030C7CB66176C567DD5B680 /* libPods-macOS-ocUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AAE9F212016DEFB00E816E3 /* macOS-oc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AAE9F4C2016DEFD00E816E3 /* Build configuration list for PBXNativeTarget "macOS-oc" */;
+			buildPhases = (
+				082CA2D3318CAD37A8B2DFE9 /* [CP] Check Pods Manifest.lock */,
+				4AAE9F1E2016DEFB00E816E3 /* Sources */,
+				4AAE9F1F2016DEFB00E816E3 /* Frameworks */,
+				4AAE9F202016DEFB00E816E3 /* Resources */,
+				AE72E96D795FDD96A736C8E3 /* [CP] Embed Pods Frameworks */,
+				101650FD3106B5BAFCDE5AB8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "macOS-oc";
+			productName = "macOS-oc";
+			productReference = 4AAE9F222016DEFB00E816E3 /* macOS-oc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AAE9F372016DEFD00E816E3 /* macOS-ocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AAE9F4F2016DEFD00E816E3 /* Build configuration list for PBXNativeTarget "macOS-ocTests" */;
+			buildPhases = (
+				EB33E91D2515043F272201D0 /* [CP] Check Pods Manifest.lock */,
+				4AAE9F342016DEFD00E816E3 /* Sources */,
+				4AAE9F352016DEFD00E816E3 /* Frameworks */,
+				4AAE9F362016DEFD00E816E3 /* Resources */,
+				7E7DF1EEF8E2A5587AE6E5F8 /* [CP] Embed Pods Frameworks */,
+				C496882A60CC29974BEA9C3A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AAE9F3A2016DEFD00E816E3 /* PBXTargetDependency */,
+			);
+			name = "macOS-ocTests";
+			productName = "macOS-ocTests";
+			productReference = 4AAE9F382016DEFD00E816E3 /* macOS-ocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AAE9F422016DEFD00E816E3 /* macOS-ocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AAE9F522016DEFD00E816E3 /* Build configuration list for PBXNativeTarget "macOS-ocUITests" */;
+			buildPhases = (
+				C15C7DFD633A4B00580B337C /* [CP] Check Pods Manifest.lock */,
+				4AAE9F3F2016DEFD00E816E3 /* Sources */,
+				4AAE9F402016DEFD00E816E3 /* Frameworks */,
+				4AAE9F412016DEFD00E816E3 /* Resources */,
+				A37C030B4FCD8499D51CD4EF /* [CP] Embed Pods Frameworks */,
+				32275C40E0B7BDF59955D39B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AAE9F452016DEFD00E816E3 /* PBXTargetDependency */,
+			);
+			name = "macOS-ocUITests";
+			productName = "macOS-ocUITests";
+			productReference = 4AAE9F432016DEFD00E816E3 /* macOS-ocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AAE9F1A2016DEFB00E816E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = bys;
+				TargetAttributes = {
+					4AAE9F212016DEFB00E816E3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					4AAE9F372016DEFD00E816E3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4AAE9F212016DEFB00E816E3;
+					};
+					4AAE9F422016DEFD00E816E3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4AAE9F212016DEFB00E816E3;
+					};
+				};
+			};
+			buildConfigurationList = 4AAE9F1D2016DEFB00E816E3 /* Build configuration list for PBXProject "macOS-oc" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AAE9F192016DEFB00E816E3;
+			productRefGroup = 4AAE9F232016DEFB00E816E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AAE9F212016DEFB00E816E3 /* macOS-oc */,
+				4AAE9F372016DEFD00E816E3 /* macOS-ocTests */,
+				4AAE9F422016DEFD00E816E3 /* macOS-ocUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AAE9F202016DEFB00E816E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AAE9F2C2016DEFC00E816E3 /* Assets.xcassets in Resources */,
+				4AAE9F2F2016DEFC00E816E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AAE9F362016DEFD00E816E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AAE9F412016DEFD00E816E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		082CA2D3318CAD37A8B2DFE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-macOS-oc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		101650FD3106B5BAFCDE5AB8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-macOS-oc/Pods-macOS-oc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32275C40E0B7BDF59955D39B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-macOS-ocUITests/Pods-macOS-ocUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E7DF1EEF8E2A5587AE6E5F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-macOS-ocTests/Pods-macOS-ocTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A37C030B4FCD8499D51CD4EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-macOS-ocUITests/Pods-macOS-ocUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE72E96D795FDD96A736C8E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-macOS-oc/Pods-macOS-oc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C15C7DFD633A4B00580B337C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-macOS-ocUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C496882A60CC29974BEA9C3A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-macOS-ocTests/Pods-macOS-ocTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB33E91D2515043F272201D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-macOS-ocTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AAE9F1E2016DEFB00E816E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AAE9F2A2016DEFC00E816E3 /* ViewController.m in Sources */,
+				4AAE9F322016DEFC00E816E3 /* main.m in Sources */,
+				4AAE9F272016DEFC00E816E3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AAE9F342016DEFD00E816E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AAE9F3D2016DEFD00E816E3 /* macOS_ocTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AAE9F3F2016DEFD00E816E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AAE9F482016DEFD00E816E3 /* macOS_ocUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AAE9F3A2016DEFD00E816E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AAE9F212016DEFB00E816E3 /* macOS-oc */;
+			targetProxy = 4AAE9F392016DEFD00E816E3 /* PBXContainerItemProxy */;
+		};
+		4AAE9F452016DEFD00E816E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AAE9F212016DEFB00E816E3 /* macOS-oc */;
+			targetProxy = 4AAE9F442016DEFD00E816E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AAE9F2D2016DEFC00E816E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AAE9F2E2016DEFC00E816E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AAE9F4A2016DEFD00E816E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4AAE9F4B2016DEFD00E816E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4AAE9F4D2016DEFD00E816E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FE6BB7A8BCDE0A483481FE8 /* Pods-macOS-oc.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "macOS-oc/macOS_oc.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3D27XEAVGH;
+				INFOPLIST_FILE = "macOS-oc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bys.macOS-oc-cm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		4AAE9F4E2016DEFD00E816E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F34693E6025A486A9D993D2 /* Pods-macOS-oc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "macOS-oc/macOS_oc.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3D27XEAVGH;
+				INFOPLIST_FILE = "macOS-oc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bys.macOS-oc-cm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		4AAE9F502016DEFD00E816E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D989160118027BBF40CA620F /* Pods-macOS-ocTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3D27XEAVGH;
+				INFOPLIST_FILE = "macOS-ocTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bys.macOS-ocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macOS-oc.app/Contents/MacOS/macOS-oc";
+			};
+			name = Debug;
+		};
+		4AAE9F512016DEFD00E816E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72D52BB6C30C9B84FD41E7E6 /* Pods-macOS-ocTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3D27XEAVGH;
+				INFOPLIST_FILE = "macOS-ocTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bys.macOS-ocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macOS-oc.app/Contents/MacOS/macOS-oc";
+			};
+			name = Release;
+		};
+		4AAE9F532016DEFD00E816E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A871E81D8D74A66968CC1F7 /* Pods-macOS-ocUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3D27XEAVGH;
+				INFOPLIST_FILE = "macOS-ocUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bys.macOS-ocUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "macOS-oc";
+			};
+			name = Debug;
+		};
+		4AAE9F542016DEFD00E816E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF51901536864E33A641E88A /* Pods-macOS-ocUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3D27XEAVGH;
+				INFOPLIST_FILE = "macOS-ocUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bys.macOS-ocUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "macOS-oc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AAE9F1D2016DEFB00E816E3 /* Build configuration list for PBXProject "macOS-oc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AAE9F4A2016DEFD00E816E3 /* Debug */,
+				4AAE9F4B2016DEFD00E816E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AAE9F4C2016DEFD00E816E3 /* Build configuration list for PBXNativeTarget "macOS-oc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AAE9F4D2016DEFD00E816E3 /* Debug */,
+				4AAE9F4E2016DEFD00E816E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AAE9F4F2016DEFD00E816E3 /* Build configuration list for PBXNativeTarget "macOS-ocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AAE9F502016DEFD00E816E3 /* Debug */,
+				4AAE9F512016DEFD00E816E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AAE9F522016DEFD00E816E3 /* Build configuration list for PBXNativeTarget "macOS-ocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AAE9F532016DEFD00E816E3 /* Debug */,
+				4AAE9F542016DEFD00E816E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AAE9F1A2016DEFB00E816E3 /* Project object */;
+}

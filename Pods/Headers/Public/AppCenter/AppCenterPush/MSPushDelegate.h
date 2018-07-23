@@ -1,0 +1,1 @@
+../../../../AppCenter/AppCenter-SDK-Apple/macOS/AppCenterPush.framework/Headers/MSPushDelegate.h

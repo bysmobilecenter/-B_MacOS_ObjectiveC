@@ -1,0 +1,1 @@
+../../../../AppCenter/AppCenter-SDK-Apple/macOS/AppCenter.framework/Headers/MSLogWithProperties.h

@@ -1,0 +1,1 @@
+../../../../AppCenter/AppCenter-SDK-Apple/macOS/AppCenterAnalytics.framework/Headers/AppCenterAnalytics.h
