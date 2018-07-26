@@ -21,7 +21,7 @@
     // Insert code here to initialize your application
     //[MSAppCenter setLogUrl:@"https://in-staging-south-centralus.staging.avalanch.es"];
     [MSPush setDelegate:self];
-    [MSAppCenter start:@"c242649d-370a-4d83-903f-2bfc928582cd" withServices:@[ [MSAnalytics class], [MSCrashes class], [MSPush class]]];
+    [MSAppCenter start:@"24137b35-3bdb-498d-bbff-d3f9443c3055" withServices:@[ [MSAnalytics class], [MSCrashes class], [MSPush class]]];
     NSUUID *installId = [MSAppCenter  installId];
     NSString *deviceId = [installId UUIDString];
     MSCustomProperties *customProperties = [MSCustomProperties new];
